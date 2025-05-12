@@ -26,5 +26,8 @@ There is code for a buzzer included in the "Scan.py" and "DLS.py" files, though 
 
 Moving forward, the next major step for this project would be figuring out what motor is needed to power the door lock and, once that part is acquired, getting the code to run so that the lock unlocks when the tag is placed against the scanner during the run of the "DLS.py" program
 
+Here is a link to the presentation of the projec:
+https://youtu.be/BEzqA0svQmk
+
 Relay to breadboard connection:
 ![Relay to Breadboard](https://github.com/user-attachments/assets/3b970697-a12a-4109-9361-5b92208c0f6b)
