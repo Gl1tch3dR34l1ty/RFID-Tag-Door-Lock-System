@@ -6,6 +6,7 @@ This is a computer science project that was started in order to build to creatin
 Link to full instruction document (includes how to set up the RFID, create a write and read file, and how to run the write and read files): 
 https://srituhobby.com/how-to-make-an-rfid-door-lock-system-with-raspberry-pi-board/?srsltid=AfmBOop11d9lPfGkxk32rNBZU558JenfbhboKhBdjgvasokk8zl277Ms
 
+
 There were a few issues that were run into while working on this project:
 
 1. When attempting to install and update the packages needed for the project, the terminal would get stuck at a point that said something along the lines of "installing fonts...". After multiple attempts and a lot of research, the best way to get around this was to start over with a new SD card or format the current SD card. We assume that something must have gone wrong with the installations and updates along the way, so instead of trying to fight that, we recommend formatting the SD card or switching to a new one.
@@ -14,6 +15,7 @@ There were a few issues that were run into while working on this project:
       A video that was helpful for making sure that the LCD screen was working: https://www.youtube.com/watch?v=fR5XhHYzUK0
 
 3. The I2C module did not connect properly to the display on its own - it had to be placed in a specific position to provide power to the display. The remedy for this, at least as a temporary fix, was to wedge something like folded paper between the I2C module and the LCD screen board until it would connect properly.
+
 
 Some notes about the files included in this repository:
 
@@ -27,11 +29,19 @@ Some notes about the files included in this repository:
 
       Note: Different tags have different ID numbers, so when a tag is registered, its number will have to be copied into line 16 of "DLS.py" to initiate the tag ID number to the Tag_ID variable
 
-There is code for a buzzer included in the "Scan.py" and "DLS.py" files, though the buzzer did not work, so that will have to be looked into, if a buzzer is desired
 
-The code currently runs through a loop of locking and unlocking whenever the correct card is recognized on the scanner, however, with the goal of this particular project, the optimal outcome would be for the lock to unlock when the card is recognized, then automatically relock after a period of time without having to have the card present.
+Some things to consider moving forward:
 
-Moving forward, the next major step for this project would be figuring out what motor is needed to power the door lock and, once that part is acquired, getting the code to run so that the lock unlocks when the tag is placed against the scanner during the run of the "DLS.py" program
+1. There is code for a buzzer included in the "Scan.py" and "DLS.py" files, though the buzzer did not work, so that will have to be looked into, if a buzzer is desired
+
+2. The code currently runs through a loop of locking and unlocking whenever the correct card is recognized on the scanner, however, with the goal of this particular project, the optimal outcome would be for the lock to unlock when the card is recognized, then automatically relock after a period of time without having to have the card present.
+
+3. Figure out what motor is needed to power the door lock and, once that part is acquired, get the code to run so that the lock unlocks when the tag is placed against the scanner during the run of the "DLS.py" program
+
+4. Automate the process of scanning in a new tag and adding that tag's ID number into the "DLS.py" code so that TAG_ID doesn't have to be manually initialized
+
+5. Modify the code so that more than one tag can be valid, because, in the code's current state, only one tag can be entered at a time, so even if two tags are read in and given ID numbers, only the one that the TAG_ID variable is set to will unlock and lock the lock
+
 
 Here is a link to the presentation of the project:
 https://youtu.be/BEzqA0svQmk
