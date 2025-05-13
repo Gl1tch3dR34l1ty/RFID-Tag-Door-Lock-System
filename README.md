@@ -40,7 +40,7 @@ Some things to consider moving forward:
 
 4. Automate the process of scanning in a new tag and adding that tag's ID number into the "DLS.py" code so that TAG_ID doesn't have to be manually initialized
 
-5. Modify the code so that more than one tag can be valid, because, in the code's current state, only one tag can be entered at a time, so even if two tags are read in and given ID numbers, only the one that the TAG_ID variable is set to will unlock and lock the lock
+5. Modify the code so that more than one tag can be valid, because, in the code's current state, only one tag can be entered at a time, so even if two tags are read in and given ID numbers, only the one that the TAG_ID variable is set to will be accepted for locking and unlocking
 
 
 Here is a link to the presentation of the project:
