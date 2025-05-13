@@ -48,4 +48,4 @@ https://youtu.be/BEzqA0svQmk
 
 Relay to breadboard connection:
 ![Relay to Breadboard](https://github.com/user-attachments/assets/3b970697-a12a-4109-9361-5b92208c0f6b)
-Note: The wires that are attached at the back of the relay are, presumably, to be connected to a motor that would then connect to the lock
+Note: The wires that are attached at the back of the relay - blue and yellow at the top right of the picture - are, presumably, to be connected to a motor that would then connect to the lock
