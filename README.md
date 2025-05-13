@@ -1,4 +1,4 @@
-# RFID-Tag-Door-Lock-System
+# RFID-Pet-Tag-Door-Lock-System
 RFID COSC1030 Group Project
 
 This is a computer science project that was started in order to build to creating a door lock system specifically for a pet door. The goal was to work up to being able to integrate an RFID door lock system with a tag that can be connected to a pet tag to allow them access through a pet door in order to give them more autonomy when alone.
@@ -22,7 +22,9 @@ Some notes about the files included in this repository:
 "DLS.py" (DLS stands for "Door Lock System") gives the command to place the tag against the RFID reader to determine whether or not the tag ID matches the one in the code
       Note: Different tags have different ID numbers, so when a tag is registered, its number will have to be copied into line 16 of "DLS.py" to initiate the tag ID number to the Tag_ID variable
 
-There is code for a buzzer included in the "Scan.py" and "DLS.py" files, though we were unable to get the buzzer to work, so that will have to be looked into, if a buzzer is desired
+There is code for a buzzer included in the "Scan.py" and "DLS.py" files, though the buzzer did not work, so that will have to be looked into, if a buzzer is desired
+
+The code currently runs through a loop of locking and unlocking whenever the correct card is recognized on the scanner, however, with the goal of this particular project, the optimal outcome would be for the lock to unlock when the card is recognized, then automatically relock after a period of time without having to have the card present.
 
 Moving forward, the next major step for this project would be figuring out what motor is needed to power the door lock and, once that part is acquired, getting the code to run so that the lock unlocks when the tag is placed against the scanner during the run of the "DLS.py" program
 
