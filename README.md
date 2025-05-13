@@ -16,10 +16,15 @@ There were a few issues that were run into while working on this project:
 3. The I2C module did not connect properly to the display on its own - it had to be placed in a specific position to provide power to the display. The remedy for this, at least as a temporary fix, was to wedge something like folded paper between the I2C module and the LCD screen board until it would connect properly.
 
 Some notes about the files included in this repository:
+
 "I2C_LCD_driver.py" allows text to be displayed on the LCD screen
+
 "Library install commands.txt" has all of the commands to install the necessary packages
+
 "Scan.py" gives the command to place the tag against the RFID reader to register its ID number
+
 "DLS.py" (DLS stands for "Door Lock System") gives the command to place the tag against the RFID reader to determine whether or not the tag ID matches the one in the code
+
       Note: Different tags have different ID numbers, so when a tag is registered, its number will have to be copied into line 16 of "DLS.py" to initiate the tag ID number to the Tag_ID variable
 
 There is code for a buzzer included in the "Scan.py" and "DLS.py" files, though the buzzer did not work, so that will have to be looked into, if a buzzer is desired
