@@ -1,7 +1,7 @@
 # RFID-Pet-Tag-Door-Lock-System
 RFID COSC1030 Group Project
 
-This is a computer science project that was started in order to build to creating a door lock system specifically for a pet door. The goal was to work up to being able to integrate an RFID door lock system with a tag that can be connected to a pet tag to allow them access through a pet door in order to give them more autonomy when alone.
+This is a computer science project that was started in order to build to creating a door lock system specifically for a pet door. The goal was to work up to being able to integrate an RFID door lock system with a tag that can be connected to a pet's collar to allow them access through a pet door in order to give them more autonomy when alone.
 
 Link to full instruction document used to start this project (includes how to set up the RFID, create a write and read file, and how to run the write and read files): 
 https://srituhobby.com/how-to-make-an-rfid-door-lock-system-with-raspberry-pi-board/?srsltid=AfmBOop11d9lPfGkxk32rNBZU558JenfbhboKhBdjgvasokk8zl277Ms
