@@ -52,6 +52,8 @@ Here is a link to the presentation of this project:
 
 Components:
 
+![All Components](https://github.com/user-attachments/assets/fd47dbfc-40d0-411a-a69c-e7da8c449b5b)
+
 Raspberry Pi Board:
 
       https://www.amazon.com/Raspberry-Pi-Model-Desktop-Linux/dp/B00T2U7R7I?crid=2RDVGDRTC51FZ&keywords=raspberry%2Bpi%2B2%2Bmodel%2Bb&qid=1655634336&sprefix=raspberry%2Bpi%2B2%2Caps%2C1061&sr=8-1&linkCode=sl1&tag=sritutech20-20&linkId=3d3cd395d60b9d316e9dc2025cf1fc2e&language=en_US&ref_=as_li_ss_tl&th=1
@@ -91,9 +93,34 @@ Jumper Wires:
 
       https://www.amazon.com/gp/product/B07GD2BWPY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07GD2BWPY&linkCode=as2&tag=sritutech20-20&linkId=a5703ab5b4924376a3bb1fb410824aa2&th=1
 
+Electromagnetic Lock:
+
+![Lock](https://github.com/user-attachments/assets/662e789b-b3cc-42cd-8b7e-76d39cdc74a5)
+
 Pictures of Connections for Reference:
 
-Relay Module to Breadboard Connection:
+Relay Module to Breadboard Wiring:
 
-![Relay to Breadboard](https://github.com/user-attachments/assets/3b970697-a12a-4109-9361-5b92208c0f6b)
+![Relay Module Wiring](https://github.com/user-attachments/assets/ae2394b8-dad0-430a-9548-3c9a4ca1c415)
+
 Note: The wires that are attached at the back of the relay - blue and yellow at the top right of the picture - are, presumably, to be connected to a motor that would then connect to the lock
+
+I2C Relay to Module Wiring:
+
+![I2C Wiring](https://github.com/user-attachments/assets/6ef414bd-8fc7-4e10-86e5-8103fea9f360)
+
+LCD Display with Proper Wiring:
+
+![LCD Display](https://github.com/user-attachments/assets/64ef6ba0-6135-47b6-beb5-ddba4b9589c3)
+
+RFID Reader Module Wiring:
+
+![RFID Wiring](https://github.com/user-attachments/assets/2881ae8f-ae46-4d24-806a-8f1de84654ca)
+
+Wiring for all Relays and Modules:
+
+![Full Wiring](https://github.com/user-attachments/assets/8243fe54-6d86-4a76-9bd5-19d989dc2291)
+
+Diagram for Wiring:
+
+![Group Project Diagram](https://github.com/user-attachments/assets/52c03e7a-1da6-41fc-adc8-6293d6266ee8)
