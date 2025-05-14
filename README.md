@@ -15,7 +15,7 @@ There were a few issues that were run into while working on this project:
 
       A video that was helpful for making sure that the LCD screen was working:
    
-            https://www.youtube.com/watch?v=fR5XhHYzUK0
+      https://www.youtube.com/watch?v=fR5XhHYzUK0
 
 3. The I2C module did not connect properly to the display on its own - it had to be placed in a specific position to provide power to the display. The remedy for this, at least as a temporary fix, was to wedge something like folded paper between the I2C module and the LCD screen board until it would connect properly.
 
@@ -30,7 +30,7 @@ Some notes about the files included in this repository:
 
 "DLS.py" (DLS stands for "Door Lock System") gives the command to place the tag against the RFID reader to determine whether or not the tag ID matches the one in the code
 
-      Note: Different tags have different ID numbers, so when a tag is registered, its number will have to be copied into line 16 of "DLS.py" to initiate the tag ID number to the Tag_ID variable
+****Note: Different tags have different ID numbers, so when a tag is registered, its number will have to be copied into line 16 of "DLS.py" to initiate the tag ID number to the Tag_ID variable
 
 
 Some things to consider moving forward:
@@ -48,7 +48,7 @@ Some things to consider moving forward:
 
 Here is a link to the presentation of this project:
 
-      https://youtu.be/BEzqA0svQmk
+   https://youtu.be/BEzqA0svQmk
 
 Components:
 
@@ -56,42 +56,42 @@ Components:
 
 Raspberry Pi Board:
 
-      https://www.amazon.com/Raspberry-Pi-Model-Desktop-Linux/dp/B00T2U7R7I?crid=2RDVGDRTC51FZ&keywords=raspberry%2Bpi%2B2%2Bmodel%2Bb&qid=1655634336&sprefix=raspberry%2Bpi%2B2%2Caps%2C1061&sr=8-1&linkCode=sl1&tag=sritutech20-20&linkId=3d3cd395d60b9d316e9dc2025cf1fc2e&language=en_US&ref_=as_li_ss_tl&th=1
+   https://www.amazon.com/Raspberry-Pi-Model-Desktop-Linux/dp/B00T2U7R7I?crid=2RDVGDRTC51FZ&keywords=raspberry%2Bpi%2B2%2Bmodel%2Bb&qid=1655634336&sprefix=raspberry%2Bpi%2B2%2Caps%2C1061&sr=8-1&linkCode=sl1&tag=sritutech20-20&linkId=3d3cd395d60b9d316e9dc2025cf1fc2e&language=en_US&ref_=as_li_ss_tl&th=1
 
 RFID Reader Module Kit:
 
-      https://www.amazon.com/gp/product/B07KGBJ9VG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07KGBJ9VG&linkCode=as2&tag=sritutech20-20&linkId=d4e69b41cb66b71f02f5c32febcba75b
+   https://www.amazon.com/gp/product/B07KGBJ9VG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07KGBJ9VG&linkCode=as2&tag=sritutech20-20&linkId=d4e69b41cb66b71f02f5c32febcba75b
 
 LCD Screen and I2C Module:
 
-      https://www.amazon.com/SunFounder-Serial-Module-Display-Arduino/dp/B019K5X53O?th=1
+   https://www.amazon.com/SunFounder-Serial-Module-Display-Arduino/dp/B019K5X53O?th=1
 
 
 Relay Module:
 
-      This one requires a small screw driver and male-to-male jumper wires:
+   This one requires a small screw driver and male-to-male jumper wires:
       
-      https://www.amazon.com/gp/product/B00LW15A4W/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00LW15A4W&linkCode=as2&tag=sritutech20-20&linkId=99fdd5daffb4316feaa61dc3a346ba8b
+   https://www.amazon.com/gp/product/B00LW15A4W/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00LW15A4W&linkCode=as2&tag=sritutech20-20&linkId=99fdd5daffb4316feaa61dc3a346ba8b
       
-      This one only needs male-to-females jumper wires:
+   This one only needs male-to-females jumper wires:
       
-      https://www.amazon.com/Ferwooh-Channel-Module-Extension-Trigger/dp/B0CZ6VNK65/ref=sr_1_6?crid=2RTWKA7MYS3U2&dib=eyJ2IjoiMSJ9.7qGrQQ7hnKBoPs3iyyWH31vI03NVO71mxUYayPyhy_zVgyWCQHWttWRfcNc1vR-KjOxDejBk7z-TXgJl7JEqnqLofXfnleP48nF1lpVTtebnvjYifw4u3tGS0UHLZDThboNzYUt4u3fCRDrSiteoWIwEzeoLfL99pivf9Y-aNv1Vnt95ReHeAxTF76GmWxwRuFGKgogBumkCsZolEJ8mZI5S_UiVcV20DfsGBGwViCsuVXkhGovvTF15T8YHGQ8773HxRTVffGF2ivxqbwG4q8r6D-DrG8A93DpCA7WBdCY.x3_wVRGFw98ru8Xph9QTPTrE-zcq4mv-9cmbc7liWnQ&dib_tag=se&keywords=relay+module+5v&qid=1747199011&s=electronics&sprefix=relay+module+5v%2Celectronics%2C187&sr=1-6
+   https://www.amazon.com/Ferwooh-Channel-Module-Extension-Trigger/dp/B0CZ6VNK65/ref=sr_1_6?crid=2RTWKA7MYS3U2&dib=eyJ2IjoiMSJ9.7qGrQQ7hnKBoPs3iyyWH31vI03NVO71mxUYayPyhy_zVgyWCQHWttWRfcNc1vR-KjOxDejBk7z-TXgJl7JEqnqLofXfnleP48nF1lpVTtebnvjYifw4u3tGS0UHLZDThboNzYUt4u3fCRDrSiteoWIwEzeoLfL99pivf9Y-aNv1Vnt95ReHeAxTF76GmWxwRuFGKgogBumkCsZolEJ8mZI5S_UiVcV20DfsGBGwViCsuVXkhGovvTF15T8YHGQ8773HxRTVffGF2ivxqbwG4q8r6D-DrG8A93DpCA7WBdCY.x3_wVRGFw98ru8Xph9QTPTrE-zcq4mv-9cmbc7liWnQ&dib_tag=se&keywords=relay+module+5v&qid=1747199011&s=electronics&sprefix=relay+module+5v%2Celectronics%2C187&sr=1-6
 
 Buzzers (if you would like to incorporate one):
 
-      https://www.amazon.com/gp/product/B01N7NHSY6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01N7NHSY6&linkCode=as2&tag=sritutech20-20&linkId=bb27de34c83c54584673381df91fdc8d
+   https://www.amazon.com/gp/product/B01N7NHSY6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01N7NHSY6&linkCode=as2&tag=sritutech20-20&linkId=bb27de34c83c54584673381df91fdc8d
 
 GPIO Extension Board and Ribbon Cable:
 
-      https://www.amazon.com/DGZZI-Breakout-Expansion-Ribbon-Raspberry/dp/B089SXW3HD?crid=243M2YYUVKEB7&keywords=raspberry+pi+gpio+extension+board&qid=1658142367&sprefix=raspeberry+gpio+extension+board,aps,406&sr=8-21&linkCode=sl1&tag=sritutech20-20&linkId=6429a3b36df3a5e5fc7f7dc76db1a8df&language=en_US&ref_=as_li_ss_tl
+   https://www.amazon.com/DGZZI-Breakout-Expansion-Ribbon-Raspberry/dp/B089SXW3HD?crid=243M2YYUVKEB7&keywords=raspberry+pi+gpio+extension+board&qid=1658142367&sprefix=raspeberry+gpio+extension+board,aps,406&sr=8-21&linkCode=sl1&tag=sritutech20-20&linkId=6429a3b36df3a5e5fc7f7dc76db1a8df&language=en_US&ref_=as_li_ss_tl
 
 Breadboard:
 
-      https://www.amazon.com/gp/product/B07DL13RZH/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07DL13RZH&linkCode=as2&tag=sritutech20-20&linkId=a904a2ae589b9dc10ae7d2fd8a49338e
+   https://www.amazon.com/gp/product/B07DL13RZH/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07DL13RZH&linkCode=as2&tag=sritutech20-20&linkId=a904a2ae589b9dc10ae7d2fd8a49338e
 
 Jumper Wires:
 
-      https://www.amazon.com/gp/product/B07GD2BWPY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07GD2BWPY&linkCode=as2&tag=sritutech20-20&linkId=a5703ab5b4924376a3bb1fb410824aa2&th=1
+   https://www.amazon.com/gp/product/B07GD2BWPY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07GD2BWPY&linkCode=as2&tag=sritutech20-20&linkId=a5703ab5b4924376a3bb1fb410824aa2&th=1
 
 Electromagnetic Lock:
 
