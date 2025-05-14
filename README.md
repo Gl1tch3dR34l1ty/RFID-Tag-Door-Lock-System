@@ -123,4 +123,4 @@ Wiring for all Relays and Modules:
 
 Diagram for Wiring:
 
-![Group Project Diagram](https://github.com/user-attachments/assets/dff95116-51d0-41ca-96e2-578c0963515b)
+![Group Project Diagram (1)](https://github.com/user-attachments/assets/15216ac4-991f-4553-9c08-7a136928894f)
