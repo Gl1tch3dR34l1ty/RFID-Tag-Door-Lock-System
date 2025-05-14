@@ -51,6 +51,20 @@ Here is a link to the presentation of this project:
       https://youtu.be/BEzqA0svQmk
 
 Components:
+
+Raspberry Pi Board:
+
+      https://www.amazon.com/Raspberry-Pi-Model-Desktop-Linux/dp/B00T2U7R7I?crid=2RDVGDRTC51FZ&keywords=raspberry%2Bpi%2B2%2Bmodel%2Bb&qid=1655634336&sprefix=raspberry%2Bpi%2B2%2Caps%2C1061&sr=8-1&linkCode=sl1&tag=sritutech20-20&linkId=3d3cd395d60b9d316e9dc2025cf1fc2e&language=en_US&ref_=as_li_ss_tl&th=1
+
+RFID Reader Module Kit:
+
+      https://www.amazon.com/gp/product/B07KGBJ9VG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07KGBJ9VG&linkCode=as2&tag=sritutech20-20&linkId=d4e69b41cb66b71f02f5c32febcba75b
+
+LCD Screen and I2C Module:
+
+      https://www.amazon.com/SunFounder-Serial-Module-Display-Arduino/dp/B019K5X53O?th=1
+
+
 Relay Module:
 
       This one requires a small screw driver and male-to-male jumper wires:
@@ -76,8 +90,6 @@ Breadboard:
 Jumper Wires:
 
       https://www.amazon.com/gp/product/B07GD2BWPY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07GD2BWPY&linkCode=as2&tag=sritutech20-20&linkId=a5703ab5b4924376a3bb1fb410824aa2&th=1
-
-Raspberry Pi
 
 Pictures of Connections for Reference:
 
